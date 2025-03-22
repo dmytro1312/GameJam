@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainGame : MonoBehaviour
+public class GameMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public void Start_Game()
@@ -13,7 +13,8 @@ public class MainGame : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit(); 
+        Application.Quit();
         Debug.Log("Гра закрилася!");
     }
 }
+
